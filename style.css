@@ -1,0 +1,290 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Cinzel+Decorative & display = swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #F8F9FA;
+    max-width: 1600px;
+    align-content: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#body{
+    background-color: white;
+    padding-bottom: 52px;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+header{
+
+}
+.container-header{
+    padding: 8px 0px;
+    
+    
+}
+.section-menu{
+    display: flex;
+    
+}
+#menu-toggle{
+    margin-top: 15px;    
+    width: 18px;
+    
+}
+#menu-toggle #one,#two,#three {
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    margin: 4px auto;
+}
+.img-header{
+    display: flex;
+}
+#word{
+    width: 50px;
+    margin-left: 20%;
+}
+.wiki-logo{
+    margin-top: 8px;
+    margin-left: 8px;
+}
+#search{
+    max-width: 20vw;
+}
+#search-form{
+    border-radius: 0px;
+    padding-right: 47%;
+    padding-left: 13%;
+    width: 100%;
+    height: 30px;
+    margin: 10px auto auto 120px;
+    font-size: 15px;
+    background-image: url(search\ \(1\).png);
+    background-repeat:no-repeat;
+    background-size: 16px;
+    background-position: center left;
+    background-position-x: 10px;
+    border-width: 1px;
+}
+.sub-header{
+    display:inline-flex;
+    position: absolute;
+    margin-top: 15px;
+    right: 13%;
+    font-size: 14px;
+}
+.sub-header a {
+    text-decoration: none;
+    color: rgb(17, 17, 196);
+    margin-right: 15px;
+}
+#box{
+    width: 30px;
+    border-radius: 4px;
+    background-color: white;
+    margin-right: -35px;
+    margin-top: -7px;
+}
+#box p {
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -5px;
+    padding-left: 2px;
+    margin-right: 15px;
+    padding-bottom: 5px;
+}
+#column{
+    display: flex;
+}
+.one{
+    margin-top: 90%;
+}
+.one h2{
+    width: 140%;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 15px;
+
+}
+nav ul{
+    display: block;
+}
+
+nav li{
+    list-style: none;
+    line-height: 28px;
+    font-size: 14px;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(17, 17, 196);
+}
+#start{
+    font-weight: 700;
+    color: black;
+}
+#body-content{
+    max-width: 904px;
+    width: 100%;
+    display: flex;
+    margin-left: 13.5%;
+    margin-top: 25px;
+}
+#content{
+    width: 100%;
+}
+#content header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#content header h1{
+    font-family: 'Cinzel Decorative', cursiva;
+    font-weight: 400;
+}
+#content button{
+    background-color: white;
+    color: rgb(17, 17, 196);
+    border: 0px;
+    font-weight: 700;
+}
+#sub-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+#sub-nav li{
+}
+.left-nav hr{
+    padding-right: 100%;
+}
+.left-nav li{
+    display: inline;
+    margin-right: 10px;
+}
+.right-nav{
+    
+}
+.right-nav li{
+    display: inline;
+    margin-left: 10px;
+}
+#nome{
+    display: flex;
+}
+#seila{
+    font-size: 12px;
+}
+main h2{
+    font-family: 'Cinzel Decorative', cursiva;
+    font-weight: 400;
+}
+#table-vava{
+    display: flex;
+    
+}
+#table-vava table{
+    display: flex;
+    float: right;
+    clear: right;
+    max-height: 658px;
+    background-color: #F9F9F9;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#table-vava td{
+    border: 1px solid black;
+    
+}
+.celula{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.celula img{
+
+}
+#main-content{
+    display: block;
+    max-width: 600px;
+    width: 100%;
+    position: relative;
+    
+}
+#naosei{
+    display: flex;
+    justify-content: space-between;
+}
+#naosei p{
+    font-size: 14px;
+    line-height: 22,4px;
+}
+#seila p{
+    margin-top: 3px;
+}
+#content hr{
+    margin-top: 5px;
+}
+#continuation p{
+    display: flex;
+    width: 150%;
+}
+#continuation hr{
+    max-width: 900px;
+}
+.references  table tr td{
+    font-size: 14px;
+}
+.references table {
+    width: 70%;
+    margin-left: 20%;
+}
+
+hr{
+    margin-top: 40px;
+}
+
+#aside{
+    padding-top: 20px;
+}
+footer p {
+    font-size: 12px;
+    line-height: 15px;
+}
+.row-footer{
+}
+footer a {
+    text-decoration: none;
+    color: rgb(17, 17, 196);
+}
+footer ul{
+    display: inline;
+    line-height: 20px;
+    margin: 0px;
+    justify-content: space-around;
+}
+
+footer ul li{
+    display: inline;
+    font-size: 12px;
+    list-style: none;
+    margin-right: 12px;
+    padding: 6px 0px 6px 0px;
+}
+.buttons-link ul{
+    display: flex;
+    justify-content: right;
+}
+.buttons-link img{
+    align-content: space-between;
+    text-align: right;
+    
+}
